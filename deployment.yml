@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: php-app
-        image: rakshi123/phpapp:#{Build.BuildId}#
+        image: cicdregis.azurecr.io/phpapp:#{Build.BuildId}#
         ports:
         - containerPort: 80
 apiVersion: v1
